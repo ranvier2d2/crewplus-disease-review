@@ -1,0 +1,50 @@
+collect_clinical_features:
+  description: >
+    Collect information on the typical signs, symptoms, and clinical manifestations of {topic}
+  expected_output: >
+    A detailed list of clinical features and disease course of {topic}
+  agent: researcher
+
+determine_epidemiology:
+  description: >
+    Determine the incidence, prevalence, and risk factors of {topic}
+  expected_output: >
+    A summary of key epidemiological data of {topic}
+  agent: researcher
+
+review_pathophysiology:
+  description: >
+    Review the biological mechanisms and factors leading to {topic}
+  expected_output: >
+    A detailed explanation of the pathophysiology of {topic}
+  agent: researcher
+
+familiarize_diagnostic_workup:
+  description: >
+    Familiarize with diagnostic workup, key findings, and specialized tests for {topic}
+  expected_output: >
+    A comprehensive list of diagnostic strategies for {topic}
+  agent: researcher
+   
+review_management_approaches:
+  description: >
+    Review medical and surgical treatments, and multidisciplinary care for {topic}
+  expected_output: >
+    A summary of management approaches for {topic}
+  agent: analyst
+
+recognize_complications:
+  description: >
+    Recognize complications, monitoring, and follow-up plans for {topic}
+  expected_output: >
+    A detailed list of complications and follow-up strategies for {topic}
+  agent: analyst
+
+
+synthesize_information:
+  description: >
+    Synthesize all gathered information on {topic} into a comprehensive review
+  expected_output: >
+    A well-structured review document integrating knowledge into clinical reasoning for {topic}, including the top 5-10 clinical pearls
+  agent: reporting_analyst
+

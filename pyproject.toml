@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "disease_review"
+version = "0.1.0"
+description = "disease_review using crewAI"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai = { extras = ["tools"], version = "^0.51.0" }
+
+[tool.poetry.scripts]
+disease_review = "disease_review.main:run"
+run_crew = "disease_review.main:run"
+train = "disease_review.main:train"
+replay = "disease_review.main:replay"
+test = "disease_review.main:test"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
